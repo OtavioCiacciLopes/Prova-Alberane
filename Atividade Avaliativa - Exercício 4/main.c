@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv()) {
+	int contador;
+	
+	printf("\n Digite um número: ");
+	scanf("\n %d",&contador);
+	
+	for(contador;contador >= 1;contador--)
+	{
+		printf("%d ", contador);
+	}
+	return 0;
+}
